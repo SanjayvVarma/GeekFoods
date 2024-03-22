@@ -1,0 +1,89 @@
+.resturants{
+    background: darkgray;
+    padding: 90px 5px;
+}
+
+
+.rest-ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .rest-li {
+    width: calc(33.33% - 10px); 
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  .rest-strong {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .rest-input {
+    margin: 10px;
+    padding: 8px;
+    
+  }
+  
+  .rest-button {
+    margin-right: 5px;
+    padding: 8px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    background-color: #f8f8f8;
+  }
+  
+  .rest-button:hover {
+    background-color: #ddd;
+  }
+  
+  .rating {
+    display: inline-block;
+    unicode-bidi: bidi-override;
+    color: #ffd700; 
+    font-size: 25px;
+    height: 25px;
+  }
+  
+  .rating-star {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+  }
+  
+  .rating-star:before {
+    content: '\2605'; 
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    color: #ffd700; 
+  }
+  
+  .rating-star:hover:before,
+  .rating-star:hover ~ .rating-star:before,
+  .rating:hover .rating-star:before {
+    opacity: 1;
+  }
+  
+
+  .fa-utensils{
+    color: rgb(243, 6, 6);
+    padding-right: 6px;
+  }
+
+ .rest-div-btn{
+text-align: center;
+  }

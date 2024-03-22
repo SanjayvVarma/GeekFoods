@@ -1,0 +1,39 @@
+.logo-ipsum {
+    text-align: center;
+}
+
+.h-8 {
+    color: #0D9488;
+    width: 11.5rem;
+}
+
+.write-ipsum {
+    text-align: center;
+}
+
+.list-ipsum-1{
+    padding: 2.3rem;
+}
+
+.list-ipsum {
+    display: flex;
+    gap: 4rem;
+    list-style: none;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.icon-ipsum {
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.icon-ipsum i {
+    padding-left: 3rem;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.icon-ipsum i:hover{
+    color: blue;
+}
